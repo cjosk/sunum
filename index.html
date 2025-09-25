@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Birliği Sunumu: Mgoril Faruk</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: radial-gradient(circle at top left, #0c1b3a, #020617);
+            padding: 2rem 1rem;
+        }
+        .glass-container {
+            background: rgba(20, 30, 55, 0.5);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(56, 189, 248, 0.1);
+            border-radius: 24px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            max-width: 1200px;
+            margin: auto;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.6);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(56, 189, 248, 0.1);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .chart-bar {
+             background: linear-gradient(to top, #38bdf8, #6366f1);
+        }
+    </style>
+</head>
+<body class="text-slate-200 antialiased">
+
+    <div class="glass-container w-full p-6 md:p-10">
+        <main class="flex flex-col gap-12 md:gap-16">
+            <!-- Header -->
+            <header class="flex flex-col md:flex-row justify-between items-center">
+                <img src="https://neonbirr.com/cdn/shop/files/cropped-cropped-Yeni-Proje-24.webp?v=1696324634&width=180" alt="Neonbirr Logosu" class="h-10 mb-6 md:mb-0">
+                <div class="text-right">
+                    <h2 class="text-lg font-semibold text-sky-400 uppercase tracking-wider">ÖZEL SUNUM</h2>
+                    <h1 class="text-2xl font-bold text-white">Goril Faruk</h1>
+                </div>
+            </header>
+
+            <!-- Section 1: Introduction & Key Stats -->
+            <section class="text-center">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4">
+                    Etkileşimini ve Kazancını <span class="gradient-text">Zirveye Taşıyalım.</span>
+                </h2>
+                <p class="text-lg md:text-xl text-slate-400 max-w-4xl mx-auto">
+                    İçerik üreticileriyle güçlü ortaklıklar kuruyoruz. Bu, Örnek bir INF ile sadece 6 ayda elde ettiğimiz başarı hikayesidir. Rakamlar ve potansiyel kazancın için aşağı kaydır.
+                </p>
+                <div class="mt-10">
+                    <h3 class="text-2xl font-bold text-white">Başarı Hikayesi: <span class="text-sky-400">Örnek İş Birliği</span></h3>
+                    <p class="text-slate-400">Veri Aralığı: Mart 2025 - Eylül 2025</p>
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mt-6">
+                        <div class="glass-card p-4 md:p-6 rounded-2xl">
+                            <p class="text-3xl md:text-4xl font-extrabold gradient-text">₺461,417</p>
+                            <h4 class="text-sm md:text-base font-semibold text-slate-300 mt-2">Toplam Ciro</h4>
+                        </div>
+                        <div class="glass-card p-4 md:p-6 rounded-2xl">
+                            <p class="text-3xl md:text-4xl font-extrabold gradient-text">248</p>
+                            <h4 class="text-sm md:text-base font-semibold text-slate-300 mt-2">Toplam Sipariş</h4>
+                        </div>
+                        <div class="glass-card p-4 md:p-6 rounded-2xl">
+                            <p class="text-3xl md:text-4xl font-extrabold gradient-text">₺1,860</p>
+                            <h4 class="text-sm md:text-base font-semibold text-slate-300 mt-2">Ort. Sipariş Değeri</h4>
+                        </div>
+                        <div class="glass-card p-4 md:p-6 rounded-2xl">
+                            <p class="text-3xl md:text-4xl font-extrabold gradient-text">95%</p>
+                            <h4 class="text-sm md:text-base font-semibold text-slate-300 mt-2">Yeni Müşteri Oranı</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Section 2: Detailed Analysis -->
+            <section>
+                <h3 class="text-3xl font-bold text-white text-center mb-8">Detaylı Performans Analizi</h3>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Monthly Revenue -->
+                    <div class="glass-card p-6 rounded-2xl">
+                        <h4 class="text-xl font-bold text-white mb-4">Aylık Ciro Dağılımı (₺)</h4>
+                        <div class="flex items-end justify-between h-56 space-x-2 text-center text-xs text-slate-400">
+                            <!-- Data for chart -->
+                            <div class="flex flex-col justify-end items-center h-full w-1/6"><div class="chart-bar w-full rounded-t-md" style="height: 57%"></div><span class="mt-1">Mar</span></div>
+                            <div class="flex flex-col justify-end items-center h-full w-1/6"><div class="chart-bar w-full rounded-t-md" style="height: 16%"></div><span class="mt-1">Nis</span></div>
+                            <div class="flex flex-col justify-end items-center h-full w-1/6"><div class="chart-bar w-full rounded-t-md" style="height: 3%"></div><span class="mt-1">May</span></div>
+                            <div class="flex flex-col justify-end items-center h-full w-1/6"><div class="chart-bar w-full rounded-t-md" style="height: 9%"></div><span class="mt-1">Tem</span></div>
+                            <div class="flex flex-col justify-end items-center h-full w-1/6"><div class="chart-bar w-full rounded-t-md" style="height: 6%"></div><span class="mt-1">Ağu</span></div>
+                            <div class="flex flex-col justify-end items-center h-full w-1/6"><div class="chart-bar w-full rounded-t-md" style="height: 2%"></div><span class="mt-1">Eyl</span></div>
+                        </div>
+                         <p class="text-center mt-4 text-slate-500 italic text-sm">İlk ayki güçlü başlangıç, kampanyanın etkisini gösteriyor.</p>
+                    </div>
+                    <!-- Order Times -->
+                    <div class="glass-card p-6 rounded-2xl">
+                        <h4 class="text-xl font-bold text-white mb-4">En Popüler Sipariş Saatleri</h4>
+                        <div class="space-y-4 text-lg">
+                             <div class="flex justify-between items-center"><span class="font-semibold text-sky-300">Akşam (18-00)</span><span class="font-bold text-white">58%</span></div>
+                             <div class="flex justify-between items-center"><span class="font-semibold text-slate-300">Öğleden Sonra (12-18)</span><span class="font-bold text-white">18%</span></div>
+                             <div class="flex justify-between items-center"><span class="font-semibold text-slate-400">Gece (00-06)</span><span class="font-bold text-white">13%</span></div>
+                             <div class="flex justify-between items-center"><span class="font-semibold text-slate-400">Sabah (06-12)</span><span class="font-bold text-white">11%</span></div>
+                        </div>
+                        <p class="text-center mt-6 text-slate-500 italic text-sm">Kitlenin en aktif olduğu akşam saatleri, satışlar için en verimli zaman dilimi.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: Earning Projections -->
+            <section>
+                <h3 class="text-3xl font-bold text-white text-center mb-2">Goril Faruk için Kazanç Projeksiyonu</h3>
+                 <p class="text-slate-400 text-center mb-8">(6 Aylık Dönem - %10 Komisyon Oranı ile)</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <!-- Conservative Scenario -->
+                    <div class="glass-card p-6 rounded-2xl border-t-4 border-slate-500">
+                        <h4 class="text-xl font-bold text-slate-300 mb-4">Başlangıç Senaryosu</h4>
+                        <p class="text-slate-400">~75 Sipariş</p>
+                        <p class="text-2xl font-bold text-white my-2">₺139.500</p>
+                        <p class="text-slate-400 text-sm mb-4">Tahmini Ciro</p>
+                        <div class="bg-sky-500/20 text-sky-300 font-bold text-2xl p-3 rounded-lg">₺13,950</div>
+                         <p class="text-slate-400 text-sm mt-1">Sizin Kazancınız</p>
+                    </div>
+                    <!-- Target Scenario -->
+                    <div class="glass-card p-6 rounded-2xl border-t-4 border-sky-400 scale-105 shadow-2xl shadow-sky-500/10">
+                        <h4 class="text-xl font-bold text-sky-300 mb-4">Hedef Senaryo</h4>
+                        <p class="text-slate-400">~150 Sipariş</p>
+                        <p class="text-3xl font-bold text-white my-2">₺279.000</p>
+                        <p class="text-slate-400 text-sm mb-4">Tahmini Ciro</p>
+                        <div class="bg-sky-500/20 text-sky-300 font-bold text-3xl p-3 rounded-lg">₺27,900</div>
+                        <p class="text-slate-400 text-sm mt-1">Sizin Kazancınız</p>
+                    </div>
+                    <!-- Ambitious Scenario -->
+                     <div class="glass-card p-6 rounded-2xl border-t-4 border-indigo-500">
+                        <h4 class="text-xl font-bold text-indigo-300 mb-4">Zirve Senaryosu</h4>
+                         <p class="text-slate-400">~250 Sipariş</p>
+                        <p class="text-2xl font-bold text-white my-2">₺465.000</p>
+                        <p class="text-slate-400 text-sm mb-4">Tahmini Ciro</p>
+                        <div class="bg-indigo-500/20 text-indigo-300 font-bold text-2xl p-3 rounded-lg">₺46,500</div>
+                         <p class="text-slate-400 text-sm mt-1">Sizin Kazancınız</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="text-center mt-12 md:mt-16 pt-8 border-t border-slate-700/50">
+            <p class="text-slate-500">Bu potansiyeli birlikte gerçeğe dönüştürmek için sabırsızlanıyoruz.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+
